@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <h1>Ejercicio de guardado de informacion en Local Storage</h1>
+
+      <article>
+        <section>
+          <span> Key: </span>
+          <input type="text" id="inputKey" />
+          <span> Value: </span>
+          <input type="text" id="inputValue" />
+        </section>
+        <br />
+        <button id="btnAdd" onclick="addItem(this)">Save to Storage</button>
+        <button id="btnClear" onclick="clearItems()">Clear Storage</button>
+      </article>
+      <br />
+
+      <article>
+        <table id="currentTable">
+          <thead>
+            <tr>
+              <th>Current Storage Contents</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+          </tbody>
+        </table>
+      </article>
+    </section>
+    <script src="localStorageTest.js"></script>
+    <script>
+    </script>
+  </body>
+</html>
